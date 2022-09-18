@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.haut{
+    background-color: rgb(10, 10, 88) ;
+    color: blanchedalmond;
+    border-radius: 20px;
+    margin: 0%;
+    height: 10%;
+
+
+}
+body{
+    background-color: rgb(150, 145, 145);
+}
+nav a{
+    color: white;
+}
+
+div{
+    
+  }
+  .pied{
+      background-color: #0a0a58;
+      color: white;
+      border-radius: 15px;
+  }
+  body .conteneur{
+      background-color: rgb(7, 7, 49);
+      color: white;
+      border-color: rgb(25, 37, 31);
+      padding: 40px 80px;
+      margin: 30px;
+      width: 50%;
+      border-radius: 30px;
+      border-top-left-radius: 3px;
+  }
+  body .cont{
+    background-color: #070731;
+    color: white;
+    border-color: rgb(25, 37, 31);
+    padding: 40px 80px;
+    margin: 50px;
+    width: 50%;
+    border-radius: 30px;
+    border-top-left-radius: 3px;
+}
+.ligne{
+    
+    display: inline-block;
+    text-align: center;
+}
+h3{
+    color: #178a43;
+}
+hr{
+    padding: 12px;
+}
+a{
+    text-decoration: none;
+}
+.haut li{
+    position: relative;
+}
+.menu a:hover .subm{
+    display: block;
+}
+.haut li:hover .subm{
+    display: block;
+}
+.subm{
+    display: none;
+
+    background-color:#178a43 ;
+   
+    
+}
+.subm li{
+    background-color: #178a43;
+    color: azure;
+    margin-top: 12px;
+    background: 50px;
+
+    
+}
+.haut a:hover{
+    background-color:azure;
+    color: rgb(23, 138, 67);
+    border-radius: 20px;
+
+
+}
+.haut p:hover{
+    background-color: azure;
+    color: rgb(23, 138, 67);
+    border-radius: 20px;
+
+}
+.subm li{
+    display: block;
+}
+h3{
+    text-align: center;
+}
